@@ -1,0 +1,16 @@
+export enum ROLE {
+  SUPER_ADMIN = 'SUPER_ADMIN',
+  ADMIN = 'ADMIN',
+  USER = 'user',
+  UNAUTH = 'UNAUTH'
+}
+
+export const ROLE_ENUM = [ROLE.ADMIN, ROLE.SUPER_ADMIN, ROLE.USER, ROLE.UNAUTH];
+
+export enum ROLE_FILTER {
+  SUPER_ADMIN = 'SUPER_ADMIN',
+  ADMIN = 'ADMIN',
+  USER = 'USER',
+  UNAUTH = 'UNAUTH',
+  ALL = 'ALL'
+}
